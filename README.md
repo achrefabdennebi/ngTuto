@@ -1,59 +1,55 @@
-# NgTuto
+# ngTuto
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.11.
+An Angular tutorial project built with Angular CLI v21.2.11, using Angular 21, TypeScript 5.9, and Vitest for unit testing.
 
-## Development server
+## Prerequisites
 
-To start a local development server, run:
+- Node.js
+- npm 11+
+- Angular CLI: `npm install -g @angular/cli`
+
+## Getting Started
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Open your browser at `http://localhost:4200/`. The app reloads automatically on file changes.
 
-## Code scaffolding
+## Scripts
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+| Command         | Description                        |
+|-----------------|------------------------------------|
+| `ng serve`      | Start development server           |
+| `ng build`      | Build for production               |
+| `ng test`       | Run unit tests with Vitest         |
+| `ng generate`   | Scaffold components, pipes, etc.   |
 
-```bash
-ng generate component component-name
+## Tech Stack
+
+- [Angular 21](https://angular.dev)
+- [TypeScript 5.9](https://www.typescriptlang.org/)
+- [RxJS 7.8](https://rxjs.dev/)
+- [Vitest](https://vitest.dev/) — unit testing
+- [Prettier](https://prettier.io/) — code formatting
+
+## Project Structure
+
+```
+src/
+  app/        # Application components and modules
+  public/     # Static assets
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Resources
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- [Angular Documentation](https://angular.dev)
+- [Angular CLI Reference](https://angular.dev/tools/cli)
